@@ -15,7 +15,7 @@ D:/unityProjects/CarGame
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55381
+57177
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/unityProjects/CarGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29708]  Target information:
+Player connection [19596]  Target information:
 
-Player connection [29708]  * "[IP] 192.168.151.13 [Port] 0 [Flags] 2 [Guid] 2254300003 [EditorId] 2254300003 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QR590R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19596]  * "[IP] 192.168.151.13 [Port] 0 [Flags] 2 [Guid] 2062185467 [EditorId] 2062185467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QR590R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29708] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29708] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19596] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
 [Subsystems] Discovering subsystems at path D:/Unity Editors/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editors/6000.0.43f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editors/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Editors/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editors/6000.0.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Editors/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001624 seconds.
-- Loaded All Assemblies, in  0.366 seconds
+Registered in 0.001391 seconds.
+- Loaded All Assemblies, in  0.331 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.296 seconds
-Domain Reload Profiling: 661ms
+- Finished resetting the current domain, in  0.303 seconds
+Domain Reload Profiling: 634ms
 	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (166ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
 		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (149ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (126ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (296ms)
+	FinalizeReload (303ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (249ms)
+		SetupLoadedEditorAssemblies (263ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,62 +139,1022 @@ Domain Reload Profiling: 661ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.678 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.699 seconds
-Domain Reload Profiling: 1377ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1289ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (441ms)
-		LoadAssemblies (298ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (160ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (700ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (663ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (526ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (358ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 201 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6119 unused Assets / (4.7 MB). Loaded Objects now: 6810.
-Memory consumption went from 158.3 MB to 153.6 MB.
-Total: 9.542300 ms (FindLiveObjects: 0.675000 ms CreateObjectMapping: 0.758200 ms MarkObjects: 5.147800 ms  DeleteObjects: 2.959900 ms)
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6119 unused Assets / (4.1 MB). Loaded Objects now: 6826.
+Memory consumption went from 166.6 MB to 162.4 MB.
+Total: 6.389900 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.334200 ms MarkObjects: 3.715500 ms  DeleteObjects: 1.920100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 183826.544904 seconds.
-  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/crosd road.prefab
-  artifactKey: Guid(fa444b18b078875428e10a998435d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/crosd road.prefab using Guid(fa444b18b078875428e10a998435d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f090f95a56da6abd66036da4a76f47f3') in 2.3036664 seconds
+  Time since last request: 189848.741184 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_small.FBX
+  artifactKey: Guid(ced37f482f4e97f43b934ec6f4aaa2b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_small.FBX using Guid(ced37f482f4e97f43b934ec6f4aaa2b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b407f3f895a129f3edc9039eb068f5f') in 0.2960858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tent.FBX
+  artifactKey: Guid(6b4f547c50a13834c945db5b543988a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tent.FBX using Guid(6b4f547c50a13834c945db5b543988a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8980da95965f250d5bb37283f4f013e6') in 0.1025098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '706965c09dc122013e91a7f6055fbad9') in 0.0036217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/prefabs/checkpoint.prefab
+  artifactKey: Guid(a06313b9fde26ac4ea3dc00511b79008) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/prefabs/checkpoint.prefab using Guid(a06313b9fde26ac4ea3dc00511b79008) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '642aa96b0eb7332dd712086dfc834c2a') in 0.0256394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Audios/Engines/f1 type.wav
+  artifactKey: Guid(d371a92bbe51eb34a98989ae2659dd2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Audios/Engines/f1 type.wav using Guid(d371a92bbe51eb34a98989ae2659dd2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1eeec6457170dafffb13b6ccb46703f') in 0.018198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/WheelSkid.prefab
+  artifactKey: Guid(af3816ee804421147aa3d559bed73abe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/WheelSkid.prefab using Guid(af3816ee804421147aa3d559bed73abe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3652c0a678adc5e14bff6d690d795319') in 0.0155361 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Pickup Prefab.prefab
+  artifactKey: Guid(e083b9c6bca91b14bab710d786f41c8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Prefabs/Car Presets/Ash_Pickup Prefab.prefab using Guid(e083b9c6bca91b14bab710d786f41c8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '925c87d33ffbb20db5a6d1a05a59e48b') in 0.0430817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 100
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Materials/START_LEDS.mat
+  artifactKey: Guid(ec63e2f99ff7d0c4ba51bea1b8e48be6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Materials/START_LEDS.mat using Guid(ec63e2f99ff7d0c4ba51bea1b8e48be6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fa82bf1455c57412d2099f0fe94c397') in 0.005478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_buildings.prefab
+  artifactKey: Guid(27e8bc534fb9c974fa4da2c0a43518fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_buildings.prefab using Guid(27e8bc534fb9c974fa4da2c0a43518fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eda3e5ff9a5657b108c2f14e996294e') in 0.0095022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab
+  artifactKey: Guid(d7c9b08657eabc54db441e4854d7996e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab using Guid(d7c9b08657eabc54db441e4854d7996e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '766895828b066ae9932866203d027baa') in 0.0072194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab
+  artifactKey: Guid(cbf79babae678474692ba1856eb21d5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab using Guid(cbf79babae678474692ba1856eb21d5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f3e7ee3ff6261e884d2c09dc1613395') in 0.0086971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 267
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_gridline.prefab
+  artifactKey: Guid(3250c15b11377ed4ab6f7c05d488ccfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_gridline.prefab using Guid(3250c15b11377ed4ab6f7c05d488ccfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d996c238f300717aaa84617ee372d6a') in 0.0050247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_cone.prefab
+  artifactKey: Guid(f863c92e4102c904da932b0a140c4ab2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_cone.prefab using Guid(f863c92e4102c904da932b0a140c4ab2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140e4a04a4fce7fd287af346ab3759a2') in 0.0082671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_1.prefab
+  artifactKey: Guid(f2a6c94103fcb064ab365b61254538c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_1.prefab using Guid(f2a6c94103fcb064ab365b61254538c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94cb1dac500312bf8fdb2061bd6aa1e7') in 0.0057525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_plastic_block.prefab
+  artifactKey: Guid(b31cca7e1418b9042921e3ec481ec6ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_plastic_block.prefab using Guid(b31cca7e1418b9042921e3ec481ec6ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70bed286abbe0de85a458a351914db9d') in 0.0060031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_bridges.prefab
+  artifactKey: Guid(bde06e7a046f3f341a9c307888b8df9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_bridges.prefab using Guid(bde06e7a046f3f341a9c307888b8df9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb02b01b280f6cf6e403c4b68987f2f5') in 0.005283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_seats_big.prefab
+  artifactKey: Guid(5c111ab03fe42ee4b94566bd46ed2fc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_seats_big.prefab using Guid(5c111ab03fe42ee4b94566bd46ed2fc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14ac8919cf94212954b67c719176c12a') in 0.0057717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_exitlights.prefab
+  artifactKey: Guid(146a70e72cd9b154ab821e36a14b0bfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_exitlights.prefab using Guid(146a70e72cd9b154ab821e36a14b0bfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2d9a2c65704a7b4469df0bdd7ac920e') in 0.0057546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_short.prefab
+  artifactKey: Guid(472e3ae43fca96e41b2d7525cf75f0c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_short.prefab using Guid(472e3ae43fca96e41b2d7525cf75f0c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d8fc462b9362290aa929c0b92936200') in 0.0064935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Editor/SimcadeVehicleControllerEditor.cs
+  artifactKey: Guid(f9b0787c02cb89f47a98f3a05fa465c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Editor/SimcadeVehicleControllerEditor.cs using Guid(f9b0787c02cb89f47a98f3a05fa465c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8eef5afe573d39670b4354275eceed89') in 0.0031698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_E.FBX
+  artifactKey: Guid(8f0ad3bb5b5d02941910376a351d50d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_tree_E.FBX using Guid(8f0ad3bb5b5d02941910376a351d50d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c8b9850bb4dd051e15dd76f50ac08f2') in 0.0160114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Checkpoint.cs
+  artifactKey: Guid(78731da1eb0e83e418b88c7a2431cc77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Checkpoint.cs using Guid(78731da1eb0e83e418b88c7a2431cc77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a5828bdc8a28933d2969c0937101eb8') in 0.0030042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/RaceManager.cs
+  artifactKey: Guid(6a7774a9b5522044a8cebfe74b7bc9ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RaceManager.cs using Guid(6a7774a9b5522044a8cebfe74b7bc9ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0241f817caf42ce99b18e88e5fdc28f') in 0.0031161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcb9244c0c43a599b1272c4f75404d50') in 0.0076453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Textures/baloon.psd
+  artifactKey: Guid(b673e026df069984799124e3e95d4899) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Textures/baloon.psd using Guid(b673e026df069984799124e3e95d4899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa5b6516be3a1e1788ee41c233a6072a') in 0.0328363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecfc729256a880b6525784739ff9a11a') in 0.0035235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Materials/Asphalt.physicMaterial
+  artifactKey: Guid(62653b3527c814547baf70a1f81bf501) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Materials/Asphalt.physicMaterial using Guid(62653b3527c814547baf70a1f81bf501) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '703dd72dabe4b1fa21997f3f785d3a98') in 0.0031473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/formula-car-exel.jpg
+  artifactKey: Guid(bc6bacb03231d074693f93088b5bfec1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/formula-car-exel.jpg using Guid(bc6bacb03231d074693f93088b5bfec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78882658a17bf0e573e7d9ebe30987c0') in 0.0079365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Old RR/Old RR light.png
+  artifactKey: Guid(f81838a79897ea444baac6b6419972aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Old RR/Old RR light.png using Guid(f81838a79897ea444baac6b6419972aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c78e8f5f56250f82c7f462dae1bcc647') in 0.0143965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/wheel_E.png
+  artifactKey: Guid(1e23e69aa514f194081aa69d792c20f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/wheel_E.png using Guid(1e23e69aa514f194081aa69d792c20f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '181f4eba32c84b5cb7b9ce314e6b034a') in 0.0072052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Classic Sedan Prefab.prefab
+  artifactKey: Guid(9cded23bf48bc1a4e9f548f3e2074da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Classic Sedan Prefab.prefab using Guid(9cded23bf48bc1a4e9f548f3e2074da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edd1843ad38cb1bda99860d48925fc27') in 0.0060875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/formula-car.jpg
+  artifactKey: Guid(722e81c77adb3554fa6a804f0fce6476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Formula1/formula-car.jpg using Guid(722e81c77adb3554fa6a804f0fce6476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '208cb3bd9105eb6a1a7aabdeaef76b98') in 0.009211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Old RR/Old RR.fbx
+  artifactKey: Guid(507a7f52086c93e49b8f436b3c0b60fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Old RR/Old RR.fbx using Guid(507a7f52086c93e49b8f436b3c0b60fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72b03d7810d4599eed281d705df6edfb') in 0.0176871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car.fbx
+  artifactKey: Guid(7a034881fc08c4e4d8711b9e733dc256) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car.fbx using Guid(7a034881fc08c4e4d8711b9e733dc256) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41d2abaf4b92fb245baef251ce49f68a') in 0.0144143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Scripts/TireSmoke.cs
+  artifactKey: Guid(c99e3b606dbe279468baaf0f5134ce8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Scripts/TireSmoke.cs using Guid(c99e3b606dbe279468baaf0f5134ce8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0491d0ee2bc1597f83d7c05eee31315') in 0.0036274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/Day.unity
+  artifactKey: Guid(6f89d6c81d4a93d46a40396e009cdf77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/Day.unity using Guid(6f89d6c81d4a93d46a40396e009cdf77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b92a71e828cf62b845edad5cb1bbe95') in 0.0037077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Monster Truck Body.jpg
+  artifactKey: Guid(6f5aab9590a6f704386aa0f31c334916) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Monster Truck Body.jpg using Guid(6f5aab9590a6f704386aa0f31c334916) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ee2c852102a0750c0867c24953388e1') in 0.0101538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX
+  artifactKey: Guid(2ab84962161735e41989998c7c9e1a83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_18.FBX using Guid(2ab84962161735e41989998c7c9e1a83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2f271f6f76aa909a9ab2590abe31b94') in 0.0516166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRAVEL.mat
+  artifactKey: Guid(4c74f9cb9bc5fa443a3b6765771b4348) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRAVEL.mat using Guid(4c74f9cb9bc5fa443a3b6765771b4348) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d6bcd61919d9492c680ce11358bd74b') in 0.0136103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/bus-light-texture.jpg
+  artifactKey: Guid(5484273824fa66a4d94d75179a9ed031) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/bus-light-texture.jpg using Guid(5484273824fa66a4d94d75179a9ed031) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93998bd4676450e3b82902caa2875d1d') in 0.00974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_turnsigns.prefab
+  artifactKey: Guid(2b742cea3010f98448c0976eb0724a22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_turnsigns.prefab using Guid(2b742cea3010f98448c0976eb0724a22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64ae34f845b61ffde777d56fb73b2974') in 0.0040201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Monster Truck Prefab.prefab
+  artifactKey: Guid(c7f75520b1970c24694a912fcc0fd197) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Monster Truck Prefab.prefab using Guid(c7f75520b1970c24694a912fcc0fd197) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9110f8f4246c9133f67a525a86975287') in 0.0143414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/front light.png
+  artifactKey: Guid(850ea1116b9805d47b5758521d91dc00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/front light.png using Guid(850ea1116b9805d47b5758521d91dc00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5af3bfbfedca0c1dceee5bf551f07544') in 0.0084697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_5.prefab
+  artifactKey: Guid(e93526f2a3a2a504ea66f970b6c5fc2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_5.prefab using Guid(e93526f2a3a2a504ea66f970b6c5fc2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd21bdc01409e76ebe94d97002ffd2762') in 0.0065866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab
+  artifactKey: Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab using Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '420c9590d64244b0d76297cd585f5ea1') in 0.0078192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab
+  artifactKey: Guid(56eb2457054d33841820e62ae0a64ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab using Guid(56eb2457054d33841820e62ae0a64ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e24c45520413513538a728bb5e380e3') in 0.0058774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX
+  artifactKey: Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX using Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd64df9eae9eb851e893dd66e65e26f72') in 0.0047451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_blocks.FBX
+  artifactKey: Guid(ba1ffe5a639fdb04c93f5dab7a331c9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_blocks.FBX using Guid(ba1ffe5a639fdb04c93f5dab7a331c9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'baf5921351a23c3e3c9bb02563c8b7a2') in 0.0626238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_2.prefab
+  artifactKey: Guid(b3c55aea0b6607d4795df90cc6f9c620) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_2.prefab using Guid(b3c55aea0b6607d4795df90cc6f9c620) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05df18c9632a1a2f02d71b80dfbd5412') in 0.0069672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_pitwall.FBX
+  artifactKey: Guid(7cf44a9382ee6364096e538d816cc4cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_pitwall.FBX using Guid(7cf44a9382ee6364096e538d816cc4cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '771383895078996e433ece190fbc6873') in 0.0546957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX
+  artifactKey: Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX using Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a17b5c361b2d0138117ba03278666fac') in 0.1409351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab
+  artifactKey: Guid(ef6136efe92436948ac3de0121241a7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab using Guid(ef6136efe92436948ac3de0121241a7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa9b23e369df71946c4db58198b7c5d5') in 0.0052844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_buildings.FBX
+  artifactKey: Guid(0cb597630d4bb8f41a434afb692968df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_buildings.FBX using Guid(0cb597630d4bb8f41a434afb692968df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '720928071e0dd4e72d9983cb6f8d35c7') in 0.0826357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/Materials/bus-body-texture.mat
+  artifactKey: Guid(aefd5d90be6d75e4fbe77c9307a59a98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Bus/Materials/bus-body-texture.mat using Guid(aefd5d90be6d75e4fbe77c9307a59a98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54b0cab3587ce536bb8425bf94f7e1bc') in 0.0060573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/chassis.mat
+  artifactKey: Guid(a15b9d4ceff7ba942963044ebd91e616) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/chassis.mat using Guid(a15b9d4ceff7ba942963044ebd91e616) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efee4ca6d6c33fdc97c671f46424cbe4') in 0.0055963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/AXEL.mat
+  artifactKey: Guid(0029d31af6f8e394b961eb0809bdab08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/AXEL.mat using Guid(0029d31af6f8e394b961eb0809bdab08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3d1fe38e41239c81bbf35336ddb81ce') in 0.0047544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_B.prefab
+  artifactKey: Guid(959015518f1218a4cac02df950547865) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_B.prefab using Guid(959015518f1218a4cac02df950547865) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ef4f0ad91d736f0a0e83365421fea2f') in 0.0081827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Materials/car-lights.mat
+  artifactKey: Guid(d347c5313fc396042868fb5155a45964) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Materials/car-lights.mat using Guid(d347c5313fc396042868fb5155a45964) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57661ff32e2ae61e1d872c72d1a3f7c5') in 0.0046326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_E.prefab
+  artifactKey: Guid(c90f7dbd64fa7754897f2f70a025cf80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_E.prefab using Guid(c90f7dbd64fa7754897f2f70a025cf80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e729cdccdeeee5e0e5f67b900325c2ac') in 0.006071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Materials/front light.mat
+  artifactKey: Guid(f4b1d2637392e904289f742a0cdf5aef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sedan/Materials/front light.mat using Guid(f4b1d2637392e904289f742a0cdf5aef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46bf8c86f4b925c8fd7b47a31033af82') in 0.0046552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_A.prefab
+  artifactKey: Guid(6c524b96cebe56245b2bf666d7879a9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_A.prefab using Guid(6c524b96cebe56245b2bf666d7879a9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e97fa06beb383b70c6092a0db5f8a45f') in 0.0058588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Wheel_Diffuse.jpg
+  artifactKey: Guid(0998d3ebbd99afc428a42bd215f3add7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Classic Sedan/Wheel_Diffuse.jpg using Guid(0998d3ebbd99afc428a42bd215f3add7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '594fccde8b7e70787cca69778d727d18') in 0.0068169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_tents.FBX
+  artifactKey: Guid(4cbb8f06602ba3b478f3c795260a25c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_tents.FBX using Guid(4cbb8f06602ba3b478f3c795260a25c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74cc4742fcadab9dff5f1adb6c93e6c4') in 0.0522537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab
+  artifactKey: Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab using Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be6cbfb68ecbcb5e2b247174407f9ff7') in 0.0055253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_4.FBX
+  artifactKey: Guid(8c35c6057f32ea643a0619c3f2c19edd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_team_4.FBX using Guid(8c35c6057f32ea643a0619c3f2c19edd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb1854130a27226e9fda161ab8f8a98') in 0.0494095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car Prefab.prefab
+  artifactKey: Guid(0bd6a34c14993bc4493bb484fb662f7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Super Car Prefab.prefab using Guid(0bd6a34c14993bc4493bb484fb662f7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '617c5bc4f4b0ab02142dd86ec8f685f1') in 0.0060871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_2.mat
+  artifactKey: Guid(30eb2d32c1e32a64bb1b2962978e6cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_2.mat using Guid(30eb2d32c1e32a64bb1b2962978e6cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a38af7d8492a687c2bc3f721d663c51a') in 0.0103272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/t road.prefab
+  artifactKey: Guid(c3eb4b6f977d80142b3aa1b7a06b706e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/road/t road.prefab using Guid(c3eb4b6f977d80142b3aa1b7a06b706e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b69a64891702ef66f70072bed7f4067') in 0.006442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_09.png
+  artifactKey: Guid(6e94127c531a7b84fa3fe74ab11fcb48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_09.png using Guid(6e94127c531a7b84fa3fe74ab11fcb48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425d1d86cd4a416ed8fbaad07021a99e') in 0.0140253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/bark pine wh.png
+  artifactKey: Guid(a0ee16bfb2caadb49a6c4dd528026e43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/bark pine wh.png using Guid(a0ee16bfb2caadb49a6c4dd528026e43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23b416aa1a4de98156cbea192b886ce2') in 0.0070412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Materials/Pickup-truck.mat
+  artifactKey: Guid(4155eb98d1907e8448ab8779709e3b8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Materials/Pickup-truck.mat using Guid(4155eb98d1907e8448ab8779709e3b8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '668a17efd64aa7fe4ed021449d641f7b') in 0.0052193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_08.png
+  artifactKey: Guid(f63b585b494c19e408adc8374a32ff38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_08.png using Guid(f63b585b494c19e408adc8374a32ff38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f03b4784c418c5fd12b2afba75bc80ae') in 0.0077372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_17.png
+  artifactKey: Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_17.png using Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f17b2d6e36d66e030eda12263d8dcd6e') in 0.00709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_11_n.png
+  artifactKey: Guid(390924f77fec34c45bfb999b056631be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_11_n.png using Guid(390924f77fec34c45bfb999b056631be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ae8186d8b727a228b4f714ce2b51123') in 0.0067034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/Probs/Ground.prefab
+  artifactKey: Guid(ba6bc9bbbaf79c846b86632f6d44b1d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/Probs/Ground.prefab using Guid(ba6bc9bbbaf79c846b86632f6d44b1d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '119376c01ef0dd1212f208f4c9421711') in 0.008046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/gROUND (1).fbx
+  artifactKey: Guid(8f2d7c3785f6864438f8d52e9511cd29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/gROUND (1).fbx using Guid(8f2d7c3785f6864438f8d52e9511cd29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d1e0e1140cdecfc2630d5b2988247b') in 0.0103203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Materials/front light.mat
+  artifactKey: Guid(32718a95c9ffe6f4b8b1f064fb0e2c8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Truck/Materials/front light.mat using Guid(32718a95c9ffe6f4b8b1f064fb0e2c8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '196b565ef4585b98b9d5bb465b3c4023') in 0.0046672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/buildings/rus_build_5et_04.prefab
+  artifactKey: Guid(408af9f2b6062b4449d4b84d945fdd57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Prefeb/buildings/rus_build_5et_04.prefab using Guid(408af9f2b6062b4449d4b84d945fdd57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e5b6b743d36e7a99191274ef1f1c1ac') in 0.0123262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sports/Materials/tire.mat
+  artifactKey: Guid(44013f8da4fbc4d43a2205d13f91fb26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Sports/Materials/tire.mat using Guid(44013f8da4fbc4d43a2205d13f91fb26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d8cfe8d8ac1d9e52f9448f74c3b366a') in 0.0068872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_06.png
+  artifactKey: Guid(1aa5dc17d671bd448b9a1e9f5b6e7dbe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_06.png using Guid(1aa5dc17d671bd448b9a1e9f5b6e7dbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64884ad0ab84ca814d2220b2364cb154') in 0.0070859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/t road.fbx
+  artifactKey: Guid(1b84cf06d22c5684cb18098811986b58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/t road.fbx using Guid(1b84cf06d22c5684cb18098811986b58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd478ffcd82e14ba66e7a23a7e7659001') in 0.0082222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Materials/wheel.mat
+  artifactKey: Guid(602a35f76887f774d986339345d5b069) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Super Car/Materials/wheel.mat using Guid(602a35f76887f774d986339345d5b069) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e1c3968aada0890d524aa7e131c84ed') in 0.005285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/ast3.png
+  artifactKey: Guid(d27897795cf19c047a586837b4201ce5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/ast3.png using Guid(d27897795cf19c047a586837b4201ce5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44c7fde9c48d7f6e30b921fe42906f3e') in 0.0063178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_dec_01.png
+  artifactKey: Guid(24ae1851ee4bd6b40903851f84596cc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_dec_01.png using Guid(24ae1851ee4bd6b40903851f84596cc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16b262379e61586f5359c52ac5bd5ef6') in 0.00857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_11.png
+  artifactKey: Guid(d898f1952a888e5459ca4fa61f69aacb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/rus_build_11.png using Guid(d898f1952a888e5459ca4fa61f69aacb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fe88e4d4dc58b7b10282df920521233') in 0.0060409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab
+  artifactKey: Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab using Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ec0fe11b1c6d4e7e4ad6f3921315396') in 0.00529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '837802af5874253949ff3a8fbfa000dd') in 0.0040301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Audios/Engines/Engine Loop.wav
+  artifactKey: Guid(9a037908257abb24792c2067a3fd6838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Audios/Engines/Engine Loop.wav using Guid(9a037908257abb24792c2067a3fd6838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74a8b0107d4810b84c8719b5b873c993') in 0.0103493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp.fbx
+  artifactKey: Guid(4587b5e9e0e4be144be37ff33200ce9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp.fbx using Guid(4587b5e9e0e4be144be37ff33200ce9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2fa2f97c0f8aa730fdc651d126dfb8c') in 0.0132794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/crosd road (4).fbx
+  artifactKey: Guid(8b6ac65e76edd5247bb79e860adebd59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/crosd road (4).fbx using Guid(8b6ac65e76edd5247bb79e860adebd59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3e7663c0b56df7c20a4d5fb463692e1') in 0.0086147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png
+  artifactKey: Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road.png using Guid(8fc894ee6a6ff134da8a4b56224e88da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '698a67bb9244eae8ae388581ef153afd') in 0.0066806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Dirt.psd
+  artifactKey: Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Dirt.psd using Guid(bfd675cc0db1d4656b75dc6d6ba91142) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f9926783538af21748da3e6ec324555') in 0.0056356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/Road+Cracked+AI+01_COLOR.png
+  artifactKey: Guid(e20c6d03896be8a4a979be4705f4976a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/Road+Cracked+AI+01_COLOR.png using Guid(e20c6d03896be8a4a979be4705f4976a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bcdd0594dd1e667334d8f545c1c1018') in 0.0138565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/T & Cross Road.png
+  artifactKey: Guid(449f23123dd83f94f94d953dc67c3d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/T & Cross Road.png using Guid(449f23123dd83f94f94d953dc67c3d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eee5d0a0cd1a01fadc68ef2113ae1afb') in 0.0124393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Grass.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Textures/Grass.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02544883f751d247181ef34012a68885') in 0.0068381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials/road-t-.-c.mat
+  artifactKey: Guid(8fe32fa4b07b72346919035fd06b773a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Road/Materials/road-t-.-c.mat using Guid(8fe32fa4b07b72346919035fd06b773a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07667e883ba2207314521661880a0be4') in 0.0048852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_02.obj
+  artifactKey: Guid(33c75c61ddd76a5488ebb690150880fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_02.obj using Guid(33c75c61ddd76a5488ebb690150880fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85eec3b87fb9747df63d40aa0c6517d7') in 0.0070783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Layers/Roads0111_12_download600.png
+  artifactKey: Guid(9fbdfe2dfb45fb346b2c89615b58dc71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Layers/Roads0111_12_download600.png using Guid(9fbdfe2dfb45fb346b2c89615b58dc71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4441581ddaf877134602a0ba7a5cf838') in 0.0084412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road.png
+  artifactKey: Guid(9de95594af73d774890dbab647c5583a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/road.png using Guid(9de95594af73d774890dbab647c5583a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6385175e235dc943aab7e9a3e0ff3b1f') in 0.0065902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp 1.png
+  artifactKey: Guid(cbbb3c1a420051840b508c5888aa3d4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/ramp 1.png using Guid(cbbb3c1a420051840b508c5888aa3d4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f273871d3446eae4b820c2c8fd01f29b') in 0.0086088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Loop/loop.fbx
+  artifactKey: Guid(96dd01c322f2a614db59a671fb936261) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Loop/loop.fbx using Guid(96dd01c322f2a614db59a671fb936261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdea396539f011d38b7f14d3d01fe8e2') in 0.013054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road-t-c.png
+  artifactKey: Guid(0137916a6b412d24abc8395845b367de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/new-road-t-c.png using Guid(0137916a6b412d24abc8395845b367de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37e6dcfd81314f655830b7e491a85a73') in 0.006344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_05.obj
+  artifactKey: Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_05.obj using Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '302ea8337cafc534fffd28b7ed727535') in 0.0093696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Loop/LoopWall.png
+  artifactKey: Guid(d6eed6c600e9db44e899582ffd42eb28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Probs/Loop/LoopWall.png using Guid(d6eed6c600e9db44e899582ffd42eb28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49f6ecd2e693c9803e72d24ea9384880') in 0.0080391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/materials/rus_build_07.mat
+  artifactKey: Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Buildings_Textures/materials/rus_build_07.mat using Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eea5234a25a7eda3e3df71c11f765cda') in 0.0065169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/side-wall-gril-2 track 4.png
+  artifactKey: Guid(d7ab177b240afe94f932e18cce438a2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/side-wall-gril-2 track 4.png using Guid(d7ab177b240afe94f932e18cce438a2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e3b371c34e163612c7864563961c4cd') in 0.0074057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/Materials/bark wh lw.mat
+  artifactKey: Guid(62c004aeef1076648a99aaa35156912b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Trees/Materials/bark wh lw.mat using Guid(62c004aeef1076648a99aaa35156912b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b93cb2b26a0a01aaa53ee58e008af22') in 0.0042275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/SkyBox/Skyboxes/Material/sky-7.mat
+  artifactKey: Guid(5336727d7be32404c9ac396789142e1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/SkyBox/Skyboxes/Material/sky-7.mat using Guid(5336727d7be32404c9ac396789142e1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b718367bd3f8ee22065bf432e8b204bc') in 0.0345758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/Materials/DDS.mat
+  artifactKey: Guid(4e9bdecc520671347a193e685aaff7a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/race track 7/Materials/DDS.mat using Guid(4e9bdecc520671347a193e685aaff7a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31b2aada2e313412b4f33f80ce43b099') in 0.0048689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/Materials/SideRoad.mat
+  artifactKey: Guid(3f47e7c17b634794282895c8ecac16fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Road/New Road/Materials/SideRoad.mat using Guid(3f47e7c17b634794282895c8ecac16fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '175b405c28cdba514e6c999b2ca476e7') in 0.0056659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_06.obj
+  artifactKey: Guid(58dc942e30d8d2b4abaa624cd6491eb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/FBX Files/Buildings/decorations/rus_build_dec_roof_06.obj using Guid(58dc942e30d8d2b4abaa624cd6491eb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '932f554753b10a3168f445000da3f793') in 0.0108789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '659b163f1421d3610701fc9fd4280a4d') in 0.0031992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Layers/NewLayer.terrainlayer
+  artifactKey: Guid(10aa3bc38fb5a874d9002994a61ab787) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Sample Map/Texture/Layers/Terrain Layers/NewLayer.terrainlayer using Guid(10aa3bc38fb5a874d9002994a61ab787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d383d636e891f43ccc57fa8d04fe70a') in 0.0050972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '264357890670c7b038773d1f4d7553fc') in 0.0096895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/Monster Truck Tire.mat
+  artifactKey: Guid(cf60c761cd8be7a42a2b467a60bdfaa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ash Assets/Sim-Cade Vehicle Physics/Models/Final Vehicles/Monster Truck/Materials/Monster Truck Tire.mat using Guid(cf60c761cd8be7a42a2b467a60bdfaa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9e3ec7c2a5c8d21b9692e6ecfe20c3f') in 0.0052516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6117 unused Assets / (4.7 MB). Loaded Objects now: 6846.
+Memory consumption went from 146.6 MB to 141.9 MB.
+Total: 6.289900 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.320300 ms MarkObjects: 3.761300 ms  DeleteObjects: 1.828200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

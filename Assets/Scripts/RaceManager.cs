@@ -63,6 +63,7 @@ public class RaceManager : MonoBehaviour
     }
     public void RestartWithGhost()
     {
+        ghostPlayer.LoadAndPlayGhost();
         ghostRecorder.gameObject.transform.position = startPosition.position;
     }
 }
